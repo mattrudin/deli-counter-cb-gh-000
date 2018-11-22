@@ -7,10 +7,10 @@ end
 
 def take_a_number(array, name)
   katz_deli.push(name)
-  puts "Welcome, #{name}. You are number #{array.length} in line."
+  puts "Welcome, #{name}. You are number #{array.length+1} in line."
 end
 
 def now_serving(array)
-  puts "Currently serving #{array.last}."
+  array.length === 0 ? puts "There is nobody waiting to be served" : puts "Currently serving #{array.last}."
   array.pop()
 end
