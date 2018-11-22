@@ -7,7 +7,6 @@ def line(array)
   } else {
     puts "placeholder"
   }
-  end
 end
 
 def take_a_number(array, name)
