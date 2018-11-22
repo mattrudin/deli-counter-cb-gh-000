@@ -11,6 +11,6 @@ def take_a_number(array, name)
 end
 
 def now_serving(array)
-  array.length === 0 ? puts "There is nobody waiting to be served" : puts "Currently serving #{array.last}."
+  array.length === 0 ? puts "There is nobody waiting to be served" : puts "Currently serving #{array.first}."
   array.pop()
 end
