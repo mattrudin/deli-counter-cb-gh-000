@@ -2,7 +2,12 @@
 katz_deli = []
 
 def line(array)
-  puts array.length === 0 ? "The line is currently empty." : "placeholder"
+  if array.length === 0 {
+    puts "The line is currently empty."
+  } else {
+    puts "placeholder"
+  }
+  end
 end
 
 def take_a_number(array, name)
