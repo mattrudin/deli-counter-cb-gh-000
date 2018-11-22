@@ -12,5 +12,5 @@ end
 
 def now_serving(array)
   puts array.length === 0 ? "There is nobody waiting to be served!" : "Currently serving #{array.first}."
-  array.pop()
+  array.shift()
 end
